@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "示例图片1",
+        "category": "风景",
+        "path": "images/sample1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "示例图片2",
+        "category": "动物",
+        "path": "images/sample2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "示例图片3",
+        "category": "风景",
+        "path": "images/sample3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "示例图片4",
+        "category": "城市",
+        "path": "images/sample4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "示例图片5",
+        "category": "动物",
+        "path": "images/sample5.jpg"
+    }
+]
