@@ -34,17 +34,26 @@
     </style>
 </head>
 <body>
-    <div id="image-container"></div>
+    <div id="image-container">加载中...</div>
 
     <script>
         async function loadImage() {
             try {
                 // 解析URL路径
                 const path = window.location.pathname;
-                const pathParts = path.split('/');
+                console.log('当前路径:', path);
                 
-                // 移除空字符串和仓库名称
-                const cleanParts = pathParts.filter(part => part.length > 0 && part !== 'simple-image-host');
+                // 移除仓库名称和前导斜杠
+                let cleanPath = path.replace(/^\/simple-image-host\/?/, '');
+                console.log('清理后路径:', cleanPath);
+                
+                // 分割路径
+                const pathParts = cleanPath.split('/');
+                console.log('路径部分:', pathParts);
+                
+                // 移除空字符串
+                const cleanParts = pathParts.filter(part => part.length > 0);
+                console.log('有效路径部分:', cleanParts);
                 
                 // 检查是否有足够的路径部分
                 if (cleanParts.length < 1) {
@@ -62,6 +71,9 @@
                     if (cleanParts.length > 3) {
                         width = parseInt(cleanParts[2]);
                         height = parseInt(cleanParts[3]);
+                    } else if (cleanParts.length > 2) {
+                        // 如果只有一个尺寸参数，假设是正方形
+                        width = height = parseInt(cleanParts[2]);
                     }
                 } else {
                     // 如果第一个部分不是 'id'，则可能是宽度和高度
@@ -69,17 +81,20 @@
                         width = parseInt(cleanParts[0]);
                         height = parseInt(cleanParts[1]);
                     } else if (cleanParts.length === 1) {
-                        // 如果只有一个参数，可能是正方形尺寸
+                        // 如果只有一个参数，假设是正方形尺寸
                         width = height = parseInt(cleanParts[0]);
                     }
                 }
                 
+                console.log('解析参数:', { id, width, height });
+                
                 // 加载图片数据
-                const response = await fetch('images.json');
+                const response = await fetch('/simple-image-host/images.json');
                 if (!response.ok) {
-                    throw new Error('无法加载图片数据');
+                    throw new Error('无法加载图片数据: ' + response.status);
                 }
                 const images = await response.json();
+                console.log('加载的图片数据:', images);
                 
                 let selectedImage;
                 
@@ -97,18 +112,20 @@
                     selectedImage = images[randomIndex];
                 }
                 
+                console.log('选择的图片:', selectedImage);
+                
                 // 显示图片
                 displayImage(selectedImage, width, height);
                 
             } catch (error) {
                 console.error('加载图片失败:', error);
-                showError('加载图片数据失败');
+                showError('加载图片数据失败: ' + error.message);
             }
         }
         
         async function showRandomImage() {
             try {
-                const response = await fetch('images.json');
+                const response = await fetch('/simple-image-host/images.json');
                 if (!response.ok) {
                     throw new Error('无法加载图片数据');
                 }
@@ -123,14 +140,21 @@
                 
             } catch (error) {
                 console.error('加载随机图片失败:', error);
-                showError('加载图片数据失败');
+                showError('加载图片数据失败: ' + error.message);
             }
         }
         
         function displayImage(image, width, height) {
             const container = document.getElementById('image-container');
             const img = document.createElement('img');
-            img.src = image.path;
+            
+            // 确保路径正确
+            let imagePath = image.path;
+            if (!imagePath.startsWith('/')) {
+                imagePath = '/simple-image-host/' + imagePath;
+            }
+            
+            img.src = imagePath;
             img.alt = image.title || '图片';
             
             // 如果指定了宽度和高度，设置图片尺寸
