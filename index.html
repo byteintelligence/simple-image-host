@@ -24,11 +24,22 @@
             padding: 15px;
             border-radius: 5px;
             margin-top: 30px;
+            text-align: left;
         }
         code {
             background-color: #eee;
             padding: 2px 5px;
             border-radius: 3px;
+        }
+        .example {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #e9f5ff;
+            border-radius: 5px;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
         }
     </style>
 </head>
@@ -40,12 +51,38 @@
     
     <div class="info">
         <h2>使用说明</h2>
+        
+        <h3>1. 参数查询方式</h3>
         <p>访问格式: <code>https://coder-rangu.github.io/simple-image-host/?category=风景&id=1</code></p>
         <p>参数说明:</p>
-        <ul style="text-align: left;">
+        <ul>
             <li><code>category</code>: 图片分类 (可选)</li>
             <li><code>id</code>: 指定图片ID (可选，如不指定则随机显示)</li>
         </ul>
+        <div class="example">
+            <p>示例:</p>
+            <p><a href="?category=风景" target="_blank">随机显示风景分类的图片</a></p>
+            <p><a href="?id=2" target="_blank">显示ID为2的图片</a></p>
+        </div>
+        
+        <h3>2. 路径方式 (类似 picsum.photos)</h3>
+        <p>访问格式: <code>https://coder-rangu.github.io/simple-image-host/id/1/200/300</code></p>
+        <p>路径说明:</p>
+        <ul>
+            <li><code>/id/数字</code>: 指定图片ID</li>
+            <li><code>/宽度/高度</code>: 指定图片尺寸</li>
+            <li><code>/尺寸</code>: 指定正方形图片尺寸</li>
+        </ul>
+        <div class="example">
+            <p>示例:</p>
+            <p><a href="id/1/200/300" target="_blank">显示ID为1的图片，尺寸为200×300</a></p>
+            <p><a href="200/300" target="_blank">随机显示一张图片，尺寸为200×300</a></p>
+            <p><a href="400" target="_blank">随机显示一张正方形图片，尺寸为400×400</a></p>
+        </div>
+        
+        <h3>3. 简洁图片页面</h3>
+        <p>如果只想显示图片，没有其他元素，可以使用 image.html:</p>
+        <p><code>https://coder-rangu.github.io/simple-image-host/image.html?id=3</code></p>
     </div>
 
     <script src="script.js"></script>
