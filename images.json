@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "title": "示例图片1",
+        "title": "山脉风景",
         "category": "风景",
-        "path": "images/sample1.jpg"
+        "path": "images/sample1.svg"
     },
     {
         "id": 2,
-        "title": "示例图片2",
+        "title": "可爱猫咪",
         "category": "动物",
-        "path": "images/sample2.jpg"
+        "path": "images/sample2.svg"
     },
     {
         "id": 3,
-        "title": "示例图片3",
+        "title": "海滩风景",
         "category": "风景",
-        "path": "images/sample3.jpg"
+        "path": "images/sample3.svg"
     },
     {
         "id": 4,
-        "title": "示例图片4",
+        "title": "城市夜景",
         "category": "城市",
-        "path": "images/sample4.jpg"
+        "path": "images/sample4.svg"
     },
     {
         "id": 5,
-        "title": "示例图片5",
+        "title": "小鸟",
         "category": "动物",
-        "path": "images/sample5.jpg"
+        "path": "images/sample5.svg"
     }
 ]
