@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 动物图片 - 简单鸟 -->
+  <rect width="800" height="600" fill="#E0F7FA" />
+  <circle cx="400" cy="200" r="50" fill="#FF6347" />
+  <ellipse cx="400" cy="300" rx="150" ry="100" fill="#FF6347" />
+  <path d="M550 300 L650 250 L650 350 Z" fill="#FF6347" />
+  <path d="M250 300 L150 250 L150 350 Z" fill="#FF6347" />
+  <circle cx="370" cy="180" r="10" fill="white" />
+  <circle cx="370" cy="180" r="5" fill="black" />
+  <circle cx="430" cy="180" r="10" fill="white" />
+  <circle cx="430" cy="180" r="5" fill="black" />
+  <path d="M380 220 L420 220 L400 240 Z" fill="#FFA500" />
+  <path d="M400 350 L350 450 L400 450 L450 450 Z" fill="#FF6347" />
+  <text x="400" y="550" font-family="Arial" font-size="24" text-anchor="middle" fill="black">动物图片 - 小鸟</text>
+</svg>

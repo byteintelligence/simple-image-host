@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 风景图片 - 山脉和太阳 -->
+  <rect width="800" height="600" fill="#87CEEB" />
+  <circle cx="650" cy="150" r="80" fill="#FFD700" />
+  <path d="M0 400 L200 200 L400 350 L600 180 L800 400 L800 600 L0 600 Z" fill="#228B22" />
+  <path d="M0 450 L200 300 L400 450 L600 280 L800 450 L800 600 L0 600 Z" fill="#006400" />
+  <text x="400" y="550" font-family="Arial" font-size="24" text-anchor="middle" fill="white">风景图片 - 山脉</text>
+</svg>
