@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片查看器</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+            flex-direction: column;
+        }
+        .image-container {
+            max-width: 90vw;
+            max-height: 90vh;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            max-height: 80vh;
+            object-fit: contain;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .error {
+            color: #d32f2f;
+            font-size: 18px;
+            padding: 20px;
+            background-color: #ffebee;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .info {
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container" id="image-container">
+        <p>加载中...</p>
+    </div>
+
+    <script>
+        async function loadImage() {
+            try {
+                const response = await fetch('images.json');
+                if (!response.ok) {
+                    throw new Error('无法加载图片数据');
+                }
+                const images = await response.json();
+                
+                // 获取URL参数
+                const urlParams = new URLSearchParams(window.location.search);
+                const category = urlParams.get('category');
+                const id = urlParams.get('id');
+                
+                let filteredImages = images;
+                
+                // 按分类筛选
+                if (category) {
+                    filteredImages = images.filter(img => img.category === category);
+                    if (filteredImages.length === 0) {
+                        showError(`没有找到分类为 ${category} 的图片`);
+                        return;
+                    }
+                }
+                
+                let selectedImage;
+                
+                // 按ID查找
+                if (id) {
+                    selectedImage = filteredImages.find(img => img.id.toString() === id);
+                    if (!selectedImage) {
+                        showError(`没有找到ID为 ${id} 的图片`);
+                        return;
+                    }
+                } else {
+                    // 随机选择一张图片
+                    const randomIndex = Math.floor(Math.random() * filteredImages.length);
+                    selectedImage = filteredImages[randomIndex];
+                }
+                
+                displayImage(selectedImage);
+                
+            } catch (error) {
+                console.error('加载图片失败:', error);
+                showError('加载图片数据失败');
+            }
+        }
+        
+        function displayImage(image) {
+            const container = document.getElementById('image-container');
+            container.innerHTML = `
+                <img src="${image.path}" alt="${image.title || '图片'}">
+                <div class="info">
+                    <h3>${image.title || '未命名图片'}</h3>
+                    <p>分类: ${image.category || '未分类'}</p>
+                    <p>ID: ${image.id}</p>
+                </div>
+            `;
+            document.title = `${image.title || '图片'} - 图片查看器`;
+        }
+        
+        function showError(message) {
+            const container = document.getElementById('image-container');
+            container.innerHTML = `<div class="error">${message}</div>`;
+        }
+        
+        // 页面加载完成后执行
+        document.addEventListener('DOMContentLoaded', loadImage);
+    </script>
+</body>
+</html>
