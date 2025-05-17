@@ -1,0 +1,38 @@
+name: 删除示例图片
+
+on:
+  # 允许手动触发
+  workflow_dispatch:
+
+jobs:
+  delete-samples:
+    runs-on: ubuntu-latest
+    # 添加权限
+    permissions:
+      contents: write
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+
+      - name: 设置Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 更新images.json
+        run: |
+          python delete_samples.py
+
+      - name: 删除示例图片
+        run: |
+          # 删除sample开头的SVG文件
+          rm -f images/sample*.svg
+          echo "已删除示例SVG图片"
+
+      - name: 提交更改
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add images/ images.json
+          git commit -m "删除示例图片" || echo "没有更改需要提交"
+          git push
