@@ -1,35 +1,5 @@
 [
     {
-        "id": 1,
-        "title": "山脉风景",
-        "category": "风景",
-        "path": "images/sample1.svg"
-    },
-    {
-        "id": 2,
-        "title": "可爱猫咪",
-        "category": "动物",
-        "path": "images/sample2.svg"
-    },
-    {
-        "id": 3,
-        "title": "海滩风景",
-        "category": "风景",
-        "path": "images/sample3.svg"
-    },
-    {
-        "id": 4,
-        "title": "城市夜景",
-        "category": "城市",
-        "path": "images/sample4.svg"
-    },
-    {
-        "id": 5,
-        "title": "小鸟",
-        "category": "动物",
-        "path": "images/sample5.svg"
-    },
-    {
         "id": 6,
         "title": "A detailed black and white photograph of a cow in a field, emphasizing its facial features.",
         "category": "自然",
