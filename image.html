@@ -30,7 +30,7 @@
             color: #d32f2f;
             font-size: 18px;
             padding: 20px;
-            background-color: #ffebee;
+            background-color: #ffebeee;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
@@ -97,7 +97,7 @@
         function displayImage(image) {
             const container = document.getElementById('image-container');
             container.innerHTML = `
-                <img src="${image.path}" alt="${image.title || '图片'}">
+                <img src="${image.path}" alt="${image.title || '图片'}"/>
                 <div class="info">
                     <h3>${image.title || '未命名图片'}</h3>
                     <p>分类: ${image.category || '未分类'}</p>
