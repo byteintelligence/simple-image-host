@@ -6,6 +6,16 @@ on:
     - cron: '0 3 * * *'
   # 允许手动触发
   workflow_dispatch:
+    inputs:
+      category:
+        description: '图片分类（可选）'
+        required: false
+        type: string
+      count:
+        description: '爬取图片数量'
+        required: false
+        default: '3'
+        type: string
 
 jobs:
   crawl-images:
@@ -27,9 +37,24 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: 爬取图片
+      - name: 爬取图片（手动触发）
+        if: github.event_name == 'workflow_dispatch'
         run: |
-          python image_crawler.py --count 3
+          python image_crawler.py --pexels-key ${{ secrets.PEXELS_API_KEY }} --count ${{ github.event.inputs.count }} --category "${{ github.event.inputs.category }}"
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+
+      - name: 爬取图片（定时触发）
+        if: github.event_name == 'schedule'
+        run: |
+          # 随机选择不同分类，每个分类爬取1张图片
+          CATEGORIES=("风景" "城市" "动物" "建筑" "自然")
+          for category in "${CATEGORIES[@]}"; do
+            python image_crawler.py --pexels-key ${{ secrets.PEXELS_API_KEY }} --count 1 --category "$category"
+            sleep 2
+          done
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
 
       - name: 提交更改
         run: |
