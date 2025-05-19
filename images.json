@@ -1,35 +1,5 @@
 [
     {
-        "id": 106,
-        "title": "Capture of a stunning sunset with vibrant orange clouds over a calm beach in Sinaloa, Mexico.",
-        "category": "艺术",
-        "path": "images/image_106.jpeg"
-    },
-    {
-        "id": 107,
-        "title": "Pexels图片_2559",
-        "category": "城市",
-        "path": "images/image_107.jpeg"
-    },
-    {
-        "id": 108,
-        "title": "A detailed black and white photograph of a cow in a field, emphasizing its facial features.",
-        "category": "建筑",
-        "path": "images/image_108.jpeg"
-    },
-    {
-        "id": 109,
-        "title": "Capture of a stunning sunset with vibrant orange clouds over a calm beach in Sinaloa, Mexico.",
-        "category": "动物",
-        "path": "images/image_109.jpeg"
-    },
-    {
-        "id": 110,
-        "title": "Capture of a stunning sunset with vibrant orange clouds over a calm beach in Sinaloa, Mexico.",
-        "category": "建筑",
-        "path": "images/image_110.jpeg"
-    },
-    {
         "id": 111,
         "title": "Monochrome view of a cobblestone street with a historic tower in the background.",
         "category": "美食",
@@ -118,5 +88,35 @@
         "title": "Pexels图片_8226",
         "category": "自然",
         "path": "images/image_125.jpeg"
+    },
+    {
+        "id": 126,
+        "title": "Pexels图片_7752",
+        "category": "风景",
+        "path": "images/image_126.jpeg"
+    },
+    {
+        "id": 127,
+        "title": "Pexels图片_4476",
+        "category": "城市",
+        "path": "images/image_127.jpeg"
+    },
+    {
+        "id": 128,
+        "title": "Capture of a stunning sunset with vibrant orange clouds over a calm beach in Sinaloa, Mexico.",
+        "category": "动物",
+        "path": "images/image_128.jpeg"
+    },
+    {
+        "id": 129,
+        "title": "Pexels图片_6914",
+        "category": "建筑",
+        "path": "images/image_129.jpeg"
+    },
+    {
+        "id": 130,
+        "title": "Hand touching fresh red tomatoes on a speckled kitchen counter.",
+        "category": "自然",
+        "path": "images/image_130.jpeg"
     }
 ]
