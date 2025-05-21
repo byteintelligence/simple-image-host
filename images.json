@@ -1,35 +1,5 @@
 [
     {
-        "id": 116,
-        "title": "A captivating view of traditional Japanese architecture juxtaposed with the modern Tokyo Skytree.",
-        "category": "建筑",
-        "path": "images/image_116.jpeg"
-    },
-    {
-        "id": 117,
-        "title": "Pexels图片_8862",
-        "category": "建筑",
-        "path": "images/image_117.jpeg"
-    },
-    {
-        "id": 118,
-        "title": "Capture of a stunning sunset with vibrant orange clouds over a calm beach in Sinaloa, Mexico.",
-        "category": "城市",
-        "path": "images/image_118.jpeg"
-    },
-    {
-        "id": 119,
-        "title": "A woman in traditional attire poses outdoors with a serene expression.",
-        "category": "建筑",
-        "path": "images/image_119.jpeg"
-    },
-    {
-        "id": 120,
-        "title": "Pexels图片_2629",
-        "category": "建筑",
-        "path": "images/image_120.jpeg"
-    },
-    {
         "id": 121,
         "title": "A vibrant pile of fresh apricots on a metal plate enhances any summer dining setting.",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "A woman in a white lace dress gently holds fresh green olives with leaves indoors.",
         "category": "自然",
         "path": "images/image_135.jpeg"
+    },
+    {
+        "id": 136,
+        "title": "A charming yellow birdhouse hanging from a tree branch in a serene outdoor setting during fall.",
+        "category": "风景",
+        "path": "images/image_136.jpeg"
+    },
+    {
+        "id": 137,
+        "title": "Pexels图片_8368",
+        "category": "城市",
+        "path": "images/image_137.jpeg"
+    },
+    {
+        "id": 138,
+        "title": "Pexels图片_3616",
+        "category": "动物",
+        "path": "images/image_138.jpeg"
+    },
+    {
+        "id": 139,
+        "title": "Fashionable woman poses with unique hairstyle and vivid makeup against a bright orange background.",
+        "category": "建筑",
+        "path": "images/image_139.jpeg"
+    },
+    {
+        "id": 140,
+        "title": "Pexels图片_8295",
+        "category": "自然",
+        "path": "images/image_140.jpeg"
     }
 ]
