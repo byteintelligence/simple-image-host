@@ -1,35 +1,5 @@
 [
     {
-        "id": 151,
-        "title": "Pexels图片_5731",
-        "category": "风景",
-        "path": "images/image_151.jpeg"
-    },
-    {
-        "id": 152,
-        "title": "Colorful traditional attire with intricate jewelry and headdress in a cultural setting.",
-        "category": "城市",
-        "path": "images/image_152.jpeg"
-    },
-    {
-        "id": 153,
-        "title": "Happy dog",
-        "category": "动物",
-        "path": "images/image_153.png"
-    },
-    {
-        "id": 154,
-        "title": "Captivating image of a Painted Lady butterfly resting on a thistle, displaying its vibrant wing patterns.",
-        "category": "建筑",
-        "path": "images/image_154.jpeg"
-    },
-    {
-        "id": 155,
-        "title": "Elegant Indonesian dancer in traditional costume with vibrant colors and intricate headpiece.",
-        "category": "自然",
-        "path": "images/image_155.jpeg"
-    },
-    {
         "id": 156,
         "title": "Colorful traditional attire with intricate jewelry and headdress in a cultural setting.",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "Detailed close-up of a blue butterfly perched on a pink wildflower in a natural setting.",
         "category": "自然",
         "path": "images/image_170.jpeg"
+    },
+    {
+        "id": 171,
+        "title": "Processed with VSCO with a6 preset",
+        "category": "风景",
+        "path": "images/image_171.jpeg"
+    },
+    {
+        "id": 172,
+        "title": "Mediterranean villa facade with vibrant bougainvillea and potted plants in sunlight.",
+        "category": "城市",
+        "path": "images/image_172.jpeg"
+    },
+    {
+        "id": 173,
+        "title": "Cozy breakfast scene with coffee, bread, and avocado on a rustic table.",
+        "category": "动物",
+        "path": "images/image_173.jpeg"
+    },
+    {
+        "id": 174,
+        "title": "Pexels图片_9699",
+        "category": "建筑",
+        "path": "images/image_174.jpeg"
+    },
+    {
+        "id": 175,
+        "title": "Pexels图片_9037",
+        "category": "自然",
+        "path": "images/image_175.jpeg"
     }
 ]
