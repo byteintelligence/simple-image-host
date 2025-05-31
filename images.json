@@ -1,35 +1,5 @@
 [
     {
-        "id": 166,
-        "title": "Veda",
-        "category": "风景",
-        "path": "images/image_166.jpeg"
-    },
-    {
-        "id": 167,
-        "title": "Pexels图片_2077",
-        "category": "城市",
-        "path": "images/image_167.jpeg"
-    },
-    {
-        "id": 168,
-        "title": "A stylish woman strolls along the riverbank with a vibrant cityscape in the background.",
-        "category": "动物",
-        "path": "images/image_168.jpeg"
-    },
-    {
-        "id": 169,
-        "title": "Colorful traditional attire with intricate jewelry and headdress in a cultural setting.",
-        "category": "建筑",
-        "path": "images/image_169.jpeg"
-    },
-    {
-        "id": 170,
-        "title": "Detailed close-up of a blue butterfly perched on a pink wildflower in a natural setting.",
-        "category": "自然",
-        "path": "images/image_170.jpeg"
-    },
-    {
         "id": 171,
         "title": "Processed with VSCO with a6 preset",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "Inviting outdoor space with bamboo furniture and a laptop suggesting a remote work setup.",
         "category": "自然",
         "path": "images/image_185.jpeg"
+    },
+    {
+        "id": 186,
+        "title": "A charming outdoor table setup with coffee, camera, and accessories in Diyarbakır, Türkiye.",
+        "category": "风景",
+        "path": "images/image_186.jpeg"
+    },
+    {
+        "id": 187,
+        "title": "Charming view of Bellano, Italy by Lake Como, showcasing colorful houses and iconic bell tower.",
+        "category": "城市",
+        "path": "images/image_187.jpeg"
+    },
+    {
+        "id": 188,
+        "title": "Pexels图片_5805",
+        "category": "动物",
+        "path": "images/image_188.jpeg"
+    },
+    {
+        "id": 189,
+        "title": "Stunning aerial view of Tokyo Tower with the cityscape under a dramatic sunset sky.",
+        "category": "建筑",
+        "path": "images/image_189.jpeg"
+    },
+    {
+        "id": 190,
+        "title": "A black cat walks on geometrically patterned stairs in İstanbul, captured in black and white.",
+        "category": "自然",
+        "path": "images/image_190.jpeg"
     }
 ]
