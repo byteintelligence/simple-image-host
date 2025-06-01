@@ -1,35 +1,5 @@
 [
     {
-        "id": 171,
-        "title": "Processed with VSCO with a6 preset",
-        "category": "风景",
-        "path": "images/image_171.jpeg"
-    },
-    {
-        "id": 172,
-        "title": "Mediterranean villa facade with vibrant bougainvillea and potted plants in sunlight.",
-        "category": "城市",
-        "path": "images/image_172.jpeg"
-    },
-    {
-        "id": 173,
-        "title": "Cozy breakfast scene with coffee, bread, and avocado on a rustic table.",
-        "category": "动物",
-        "path": "images/image_173.jpeg"
-    },
-    {
-        "id": 174,
-        "title": "Pexels图片_9699",
-        "category": "建筑",
-        "path": "images/image_174.jpeg"
-    },
-    {
-        "id": 175,
-        "title": "Pexels图片_9037",
-        "category": "自然",
-        "path": "images/image_175.jpeg"
-    },
-    {
         "id": 176,
         "title": "Pexels图片_7732",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "A black cat walks on geometrically patterned stairs in İstanbul, captured in black and white.",
         "category": "自然",
         "path": "images/image_190.jpeg"
+    },
+    {
+        "id": 191,
+        "title": "Pexels图片_3535",
+        "category": "风景",
+        "path": "images/image_191.jpeg"
+    },
+    {
+        "id": 192,
+        "title": "Cozy scene of a cat sitting in a blooming tree during springtime.",
+        "category": "城市",
+        "path": "images/image_192.jpeg"
+    },
+    {
+        "id": 193,
+        "title": "Model in a striking pink dress posing stylishly against a blue backdrop.",
+        "category": "动物",
+        "path": "images/image_193.jpeg"
+    },
+    {
+        "id": 194,
+        "title": "Stunning aerial view of Tokyo Tower with the cityscape under a dramatic sunset sky.",
+        "category": "建筑",
+        "path": "images/image_194.jpeg"
+    },
+    {
+        "id": 195,
+        "title": "Cozy scene of a cat sitting in a blooming tree during springtime.",
+        "category": "自然",
+        "path": "images/image_195.jpeg"
     }
 ]
