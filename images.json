@@ -1,35 +1,5 @@
 [
     {
-        "id": 191,
-        "title": "Pexels图片_3535",
-        "category": "风景",
-        "path": "images/image_191.jpeg"
-    },
-    {
-        "id": 192,
-        "title": "Cozy scene of a cat sitting in a blooming tree during springtime.",
-        "category": "城市",
-        "path": "images/image_192.jpeg"
-    },
-    {
-        "id": 193,
-        "title": "Model in a striking pink dress posing stylishly against a blue backdrop.",
-        "category": "动物",
-        "path": "images/image_193.jpeg"
-    },
-    {
-        "id": 194,
-        "title": "Stunning aerial view of Tokyo Tower with the cityscape under a dramatic sunset sky.",
-        "category": "建筑",
-        "path": "images/image_194.jpeg"
-    },
-    {
-        "id": 195,
-        "title": "Cozy scene of a cat sitting in a blooming tree during springtime.",
-        "category": "自然",
-        "path": "images/image_195.jpeg"
-    },
-    {
         "id": 196,
         "title": "A rustic wooden door set in a pink plaster wall with a small window and street number.",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "Model in a striking pink dress posing stylishly against a blue backdrop.",
         "category": "自然",
         "path": "images/image_210.jpeg"
+    },
+    {
+        "id": 211,
+        "title": "Pexels图片_9446",
+        "category": "风景",
+        "path": "images/image_211.jpeg"
+    },
+    {
+        "id": 212,
+        "title": "Explore the futuristic architecture of Valencia's City of Arts and Sciences with its sweeping curves and expansive spaces.",
+        "category": "城市",
+        "path": "images/image_212.jpeg"
+    },
+    {
+        "id": 213,
+        "title": "Half Dome",
+        "category": "动物",
+        "path": "images/image_213.jpeg"
+    },
+    {
+        "id": 214,
+        "title": "A minimalist scene with a coffee cup and decorative flowers on a chic white table.",
+        "category": "建筑",
+        "path": "images/image_214.jpeg"
+    },
+    {
+        "id": 215,
+        "title": "A vibrant woodpecker with striking red crest perched on a branch against a lush, blurred background.",
+        "category": "自然",
+        "path": "images/image_215.jpeg"
     }
 ]
