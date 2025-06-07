@@ -1,35 +1,5 @@
 [
     {
-        "id": 201,
-        "title": "A conceptual portrait of a stylish man with roses, embodying elegance and 90s fashion vibe.",
-        "category": "风景",
-        "path": "images/image_201.jpeg"
-    },
-    {
-        "id": 202,
-        "title": "Discover a rustic wooden cabin nestled in the lush greenery of a Hungarian forest.",
-        "category": "城市",
-        "path": "images/image_202.jpeg"
-    },
-    {
-        "id": 203,
-        "title": "Free stock photo of boy, cute kid, graduating",
-        "category": "动物",
-        "path": "images/image_203.jpeg"
-    },
-    {
-        "id": 204,
-        "title": "Pexels图片_1055",
-        "category": "建筑",
-        "path": "images/image_204.jpeg"
-    },
-    {
-        "id": 205,
-        "title": "Pexels图片_5812",
-        "category": "自然",
-        "path": "images/image_205.jpeg"
-    },
-    {
         "id": 206,
         "title": "Wall of Cherry Blossom's in Full Bloom",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "Detailed view of a historical stone archway with ornate carvings and classical design elements.",
         "category": "自然",
         "path": "images/image_220.jpeg"
+    },
+    {
+        "id": 221,
+        "title": "A minimalist scene with a coffee cup and decorative flowers on a chic white table.",
+        "category": "风景",
+        "path": "images/image_221.jpeg"
+    },
+    {
+        "id": 222,
+        "title": "Black and white photo of a classic lion door knocker with a strong shadow on an ornate door.",
+        "category": "城市",
+        "path": "images/image_222.jpeg"
+    },
+    {
+        "id": 223,
+        "title": "Pexels图片_4405",
+        "category": "动物",
+        "path": "images/image_223.jpeg"
+    },
+    {
+        "id": 224,
+        "title": "Pexels图片_3711",
+        "category": "建筑",
+        "path": "images/image_224.jpeg"
+    },
+    {
+        "id": 225,
+        "title": "Pexels图片_4381",
+        "category": "自然",
+        "path": "images/image_225.jpeg"
     }
 ]
