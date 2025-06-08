@@ -1,35 +1,5 @@
 [
     {
-        "id": 206,
-        "title": "Wall of Cherry Blossom's in Full Bloom",
-        "category": "风景",
-        "path": "images/image_206.jpeg"
-    },
-    {
-        "id": 207,
-        "title": "Close-up of a hand painting abstract art on canvas with a brush in an artistic studio.",
-        "category": "城市",
-        "path": "images/image_207.jpeg"
-    },
-    {
-        "id": 208,
-        "title": "Abstract Facade",
-        "category": "动物",
-        "path": "images/image_208.jpeg"
-    },
-    {
-        "id": 209,
-        "title": "A rustic wooden hut against a forest backdrop, captured in monochrome.",
-        "category": "建筑",
-        "path": "images/image_209.jpeg"
-    },
-    {
-        "id": 210,
-        "title": "Model in a striking pink dress posing stylishly against a blue backdrop.",
-        "category": "自然",
-        "path": "images/image_210.jpeg"
-    },
-    {
         "id": 211,
         "title": "Pexels图片_9446",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "Pexels图片_4381",
         "category": "自然",
         "path": "images/image_225.jpeg"
+    },
+    {
+        "id": 226,
+        "title": "Family gathers for joyful Haldi ceremony during a vibrant Indian wedding celebration.",
+        "category": "风景",
+        "path": "images/image_226.jpeg"
+    },
+    {
+        "id": 227,
+        "title": "Elegant cheese platter garnished with edible flowers and herbs on a sunlit table.",
+        "category": "城市",
+        "path": "images/image_227.jpeg"
+    },
+    {
+        "id": 228,
+        "title": "Pexels图片_5352",
+        "category": "动物",
+        "path": "images/image_228.jpeg"
+    },
+    {
+        "id": 229,
+        "title": "Feels like summer",
+        "category": "建筑",
+        "path": "images/image_229.jpeg"
+    },
+    {
+        "id": 230,
+        "title": "Pexels图片_6062",
+        "category": "自然",
+        "path": "images/image_230.jpeg"
     }
 ]
