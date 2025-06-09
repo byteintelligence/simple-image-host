@@ -1,35 +1,5 @@
 [
     {
-        "id": 211,
-        "title": "Pexels图片_9446",
-        "category": "风景",
-        "path": "images/image_211.jpeg"
-    },
-    {
-        "id": 212,
-        "title": "Explore the futuristic architecture of Valencia's City of Arts and Sciences with its sweeping curves and expansive spaces.",
-        "category": "城市",
-        "path": "images/image_212.jpeg"
-    },
-    {
-        "id": 213,
-        "title": "Half Dome",
-        "category": "动物",
-        "path": "images/image_213.jpeg"
-    },
-    {
-        "id": 214,
-        "title": "A minimalist scene with a coffee cup and decorative flowers on a chic white table.",
-        "category": "建筑",
-        "path": "images/image_214.jpeg"
-    },
-    {
-        "id": 215,
-        "title": "A vibrant woodpecker with striking red crest perched on a branch against a lush, blurred background.",
-        "category": "自然",
-        "path": "images/image_215.jpeg"
-    },
-    {
         "id": 216,
         "title": "Pexels图片_8080",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "Pexels图片_6062",
         "category": "自然",
         "path": "images/image_230.jpeg"
+    },
+    {
+        "id": 231,
+        "title": "Half Dome",
+        "category": "风景",
+        "path": "images/image_231.jpeg"
+    },
+    {
+        "id": 232,
+        "title": "Pexels图片_1576",
+        "category": "城市",
+        "path": "images/image_232.jpeg"
+    },
+    {
+        "id": 233,
+        "title": "Pexels图片_2269",
+        "category": "动物",
+        "path": "images/image_233.jpeg"
+    },
+    {
+        "id": 234,
+        "title": "White table with a coffee cup, book, and tablet in a cozy living room setting.",
+        "category": "建筑",
+        "path": "images/image_234.jpeg"
+    },
+    {
+        "id": 235,
+        "title": "Family gathers for joyful Haldi ceremony during a vibrant Indian wedding celebration.",
+        "category": "自然",
+        "path": "images/image_235.jpeg"
     }
 ]
