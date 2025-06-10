@@ -1,35 +1,5 @@
 [
     {
-        "id": 216,
-        "title": "Pexels图片_8080",
-        "category": "风景",
-        "path": "images/image_216.jpeg"
-    },
-    {
-        "id": 217,
-        "title": "Feels like summer",
-        "category": "城市",
-        "path": "images/image_217.jpeg"
-    },
-    {
-        "id": 218,
-        "title": "Pexels图片_1549",
-        "category": "动物",
-        "path": "images/image_218.jpeg"
-    },
-    {
-        "id": 219,
-        "title": "Free stock photo of architecture, boats, canal",
-        "category": "建筑",
-        "path": "images/image_219.jpeg"
-    },
-    {
-        "id": 220,
-        "title": "Detailed view of a historical stone archway with ornate carvings and classical design elements.",
-        "category": "自然",
-        "path": "images/image_220.jpeg"
-    },
-    {
         "id": 221,
         "title": "A minimalist scene with a coffee cup and decorative flowers on a chic white table.",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "Family gathers for joyful Haldi ceremony during a vibrant Indian wedding celebration.",
         "category": "自然",
         "path": "images/image_235.jpeg"
+    },
+    {
+        "id": 236,
+        "title": "Fashionable model poses against geometric backdrop in İstanbul, embodying modern street style.",
+        "category": "风景",
+        "path": "images/image_236.jpeg"
+    },
+    {
+        "id": 237,
+        "title": "Pexels图片_9100",
+        "category": "城市",
+        "path": "images/image_237.jpeg"
+    },
+    {
+        "id": 238,
+        "title": "Fashionable model poses against geometric backdrop in İstanbul, embodying modern street style.",
+        "category": "动物",
+        "path": "images/image_238.jpeg"
+    },
+    {
+        "id": 239,
+        "title": "Pexels图片_7571",
+        "category": "建筑",
+        "path": "images/image_239.jpeg"
+    },
+    {
+        "id": 240,
+        "title": "White table with a coffee cup, book, and tablet in a cozy living room setting.",
+        "category": "自然",
+        "path": "images/image_240.jpeg"
     }
 ]
