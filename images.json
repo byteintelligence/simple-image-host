@@ -1,35 +1,5 @@
 [
     {
-        "id": 226,
-        "title": "Family gathers for joyful Haldi ceremony during a vibrant Indian wedding celebration.",
-        "category": "风景",
-        "path": "images/image_226.jpeg"
-    },
-    {
-        "id": 227,
-        "title": "Elegant cheese platter garnished with edible flowers and herbs on a sunlit table.",
-        "category": "城市",
-        "path": "images/image_227.jpeg"
-    },
-    {
-        "id": 228,
-        "title": "Pexels图片_5352",
-        "category": "动物",
-        "path": "images/image_228.jpeg"
-    },
-    {
-        "id": 229,
-        "title": "Feels like summer",
-        "category": "建筑",
-        "path": "images/image_229.jpeg"
-    },
-    {
-        "id": 230,
-        "title": "Pexels图片_6062",
-        "category": "自然",
-        "path": "images/image_230.jpeg"
-    },
-    {
         "id": 231,
         "title": "Half Dome",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "Free stock photo of bold fashion, city style, cityscape background",
         "category": "自然",
         "path": "images/image_245.jpeg"
+    },
+    {
+        "id": 246,
+        "title": "Pexels图片_9202",
+        "category": "风景",
+        "path": "images/image_246.jpeg"
+    },
+    {
+        "id": 247,
+        "title": "A delicate butterfly perched on a vibrant orange flower in a Brazilian meadow.",
+        "category": "城市",
+        "path": "images/image_247.jpeg"
+    },
+    {
+        "id": 248,
+        "title": "Rue Rambuteau Reverie",
+        "category": "动物",
+        "path": "images/image_248.jpeg"
+    },
+    {
+        "id": 249,
+        "title": "Elegant cheese platter garnished with edible flowers and herbs on a sunlit table.",
+        "category": "建筑",
+        "path": "images/image_249.jpeg"
+    },
+    {
+        "id": 250,
+        "title": "A dog playfully explores a forest surrounded by vibrant rhododendrons.",
+        "category": "自然",
+        "path": "images/image_250.jpeg"
     }
 ]
