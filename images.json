@@ -1,35 +1,5 @@
 [
     {
-        "id": 231,
-        "title": "Half Dome",
-        "category": "风景",
-        "path": "images/image_231.jpeg"
-    },
-    {
-        "id": 232,
-        "title": "Pexels图片_1576",
-        "category": "城市",
-        "path": "images/image_232.jpeg"
-    },
-    {
-        "id": 233,
-        "title": "Pexels图片_2269",
-        "category": "动物",
-        "path": "images/image_233.jpeg"
-    },
-    {
-        "id": 234,
-        "title": "White table with a coffee cup, book, and tablet in a cozy living room setting.",
-        "category": "建筑",
-        "path": "images/image_234.jpeg"
-    },
-    {
-        "id": 235,
-        "title": "Family gathers for joyful Haldi ceremony during a vibrant Indian wedding celebration.",
-        "category": "自然",
-        "path": "images/image_235.jpeg"
-    },
-    {
         "id": 236,
         "title": "Fashionable model poses against geometric backdrop in İstanbul, embodying modern street style.",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "A dog playfully explores a forest surrounded by vibrant rhododendrons.",
         "category": "自然",
         "path": "images/image_250.jpeg"
+    },
+    {
+        "id": 251,
+        "title": "A dog playfully explores a forest surrounded by vibrant rhododendrons.",
+        "category": "风景",
+        "path": "images/image_251.jpeg"
+    },
+    {
+        "id": 252,
+        "title": "Pexels图片_2990",
+        "category": "城市",
+        "path": "images/image_252.jpeg"
+    },
+    {
+        "id": 253,
+        "title": "Pexels图片_6354",
+        "category": "动物",
+        "path": "images/image_253.jpeg"
+    },
+    {
+        "id": 254,
+        "title": "A baker holding a stack of freshly baked artisan bread loaves in a kitchen setting.",
+        "category": "建筑",
+        "path": "images/image_254.jpeg"
+    },
+    {
+        "id": 255,
+        "title": "Sunlit antique woodwork and seating in the Texas State Capitol's historic chamber.",
+        "category": "自然",
+        "path": "images/image_255.jpeg"
     }
 ]
