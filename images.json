@@ -1,35 +1,5 @@
 [
     {
-        "id": 266,
-        "title": "Pexels图片_6523",
-        "category": "风景",
-        "path": "images/image_266.jpeg"
-    },
-    {
-        "id": 267,
-        "title": "A dog playfully explores a forest surrounded by vibrant rhododendrons.",
-        "category": "城市",
-        "path": "images/image_267.jpeg"
-    },
-    {
-        "id": 268,
-        "title": "Bougainvillea",
-        "category": "动物",
-        "path": "images/image_268.jpeg"
-    },
-    {
-        "id": 269,
-        "title": "Restaurant",
-        "category": "建筑",
-        "path": "images/image_269.jpeg"
-    },
-    {
-        "id": 270,
-        "title": "Blue coffee grinders and espresso machine with cups in a chic cafe setting.",
-        "category": "自然",
-        "path": "images/image_270.jpeg"
-    },
-    {
         "id": 271,
         "title": "Charming vintage tricycle with basket parked on a sunny day under leafy trees.",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "Abstract image of blue tiled pool edges with water ripples, exuding a minimalist and calming vibe.",
         "category": "自然",
         "path": "images/image_285.jpeg"
+    },
+    {
+        "id": 286,
+        "title": "A loving couple embraces on a city street as a red bus passes by, capturing a moment of urban romance.",
+        "category": "风景",
+        "path": "images/image_286.jpeg"
+    },
+    {
+        "id": 287,
+        "title": "Close-up of a striking green basilisk lizard perched on a mossy surface.",
+        "category": "城市",
+        "path": "images/image_287.jpeg"
+    },
+    {
+        "id": 288,
+        "title": "Close-up of a striking green basilisk lizard perched on a mossy surface.",
+        "category": "动物",
+        "path": "images/image_288.jpeg"
+    },
+    {
+        "id": 289,
+        "title": "Close-up of hand holding assorted seashells by the beach with waves in the background.",
+        "category": "建筑",
+        "path": "images/image_289.jpeg"
+    },
+    {
+        "id": 290,
+        "title": "Young woman in casual attire poses stylishly indoors against white wall.",
+        "category": "自然",
+        "path": "images/image_290.jpeg"
     }
 ]
