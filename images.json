@@ -1,35 +1,5 @@
 [
     {
-        "id": 271,
-        "title": "Charming vintage tricycle with basket parked on a sunny day under leafy trees.",
-        "category": "风景",
-        "path": "images/image_271.jpeg"
-    },
-    {
-        "id": 272,
-        "title": "A dog playfully explores a forest surrounded by vibrant rhododendrons.",
-        "category": "城市",
-        "path": "images/image_272.jpeg"
-    },
-    {
-        "id": 273,
-        "title": "Charming vintage tricycle with basket parked on a sunny day under leafy trees.",
-        "category": "动物",
-        "path": "images/image_273.jpeg"
-    },
-    {
-        "id": 274,
-        "title": "Bougainvillea",
-        "category": "建筑",
-        "path": "images/image_274.jpeg"
-    },
-    {
-        "id": 275,
-        "title": "Abstract image of blue tiled pool edges with water ripples, exuding a minimalist and calming vibe.",
-        "category": "自然",
-        "path": "images/image_275.jpeg"
-    },
-    {
         "id": 276,
         "title": "Black and white photo of the Arch of Constantine with tourists in Rome, Italy.",
         "category": "风景",
@@ -118,5 +88,35 @@
         "title": "Young woman in casual attire poses stylishly indoors against white wall.",
         "category": "自然",
         "path": "images/image_290.jpeg"
+    },
+    {
+        "id": 291,
+        "title": "Free stock photo of aesthetic vibe summer, aqua blue, background",
+        "category": "风景",
+        "path": "images/image_291.jpeg"
+    },
+    {
+        "id": 292,
+        "title": "Black and white silhouette of a skateboarder at a skate park in Buenos Aires.",
+        "category": "城市",
+        "path": "images/image_292.jpeg"
+    },
+    {
+        "id": 293,
+        "title": "Pexels图片_8812",
+        "category": "动物",
+        "path": "images/image_293.jpeg"
+    },
+    {
+        "id": 294,
+        "title": "Close-up of hand holding assorted seashells by the beach with waves in the background.",
+        "category": "建筑",
+        "path": "images/image_294.jpeg"
+    },
+    {
+        "id": 295,
+        "title": "Striking black and white photograph of a snow-covered mountain peak showcasing dramatic textures and high contrast.",
+        "category": "自然",
+        "path": "images/image_295.jpeg"
     }
 ]
